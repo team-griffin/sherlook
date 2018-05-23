@@ -1,0 +1,54 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "node": "current",
+            },
+            "modules": false,
+            "useBuiltIns": false,
+          }
+        ],
+        "flow"
+      ],
+      "plugins": []
+    },
+
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "node": "current",
+            },
+            "modules": false,
+            "useBuiltIns": false,
+          }
+        ],
+        "flow"
+      ],
+      "plugins": []
+    },
+
+    "test": {
+      "presets": [
+        [
+          "env",
+          {
+            "targets": {
+              "node": "current"
+            },
+            "modules": "commonjs",
+            "useBuiltIns": false,
+          }
+        ],
+        "flow"
+      ],
+      "plugins": []
+    }
+  }
+}

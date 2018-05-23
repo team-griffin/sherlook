@@ -1,0 +1,8 @@
+{
+  "tests": [
+    {
+      "key": "example test",
+      "url": "https://google.com"
+    }
+  ]
+}

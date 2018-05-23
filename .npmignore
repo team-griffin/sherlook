@@ -1,0 +1,6 @@
+# Ignore everything
+*
+.*
+
+# And then whitelist
+!dist/**
